@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Galada:100,200,300,400,500,600,700');
+
+/*--------------------header--------------------*/
+
+
+
+.headerlogo{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+.logo{
+    width:400px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fafafa;
+}
+
+.band-members{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.bandpictures{
+    width: 300px;
+    height: 239px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/*--------------------navigaton--------------------*/
+
+.navbar{
+    padding-top: 5px;
+    text-align: center;
+    background-color: #FFEFD5;
+    height: 75px;
+}
+
+li{
+   display: inline;
+   font-family:"Roboto", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+/*--------------------body--------------------*/
+
+
+
+/*--------------------section--------------------*/
+
+.homeheader{
+    text-align: center;
+}
+
+.welcome{
+    font-family:"Galada", cursive;
+    font-weight: 300;
+    font-size: 75px;
+}
+
+.maincontent{
+    font-family:"Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.toursection{
+    text-align: center;
+}
+
+.tourheading{
+    font-family:"Galada", cursive;
+    font-weight: 300;
+    font-size: 75px;
+}
+
+.musicsection{
+    text-align: center;
+}
+
+.musicheading{
+    font-family:"Galada", cursive;
+    font-weight: 300;
+    font-size: 75px;
+}
+
+.booksection{
+    text-align: center;
+}
+
+.bookheading{
+    font-family:"Galada", cursive;
+    font-weight: 300;
+    font-size: 75px;
+}
+
+/*--------------------footer--------------------*/
+
+
+
+/*--------------------general styling--------------------*/
+
+
+
