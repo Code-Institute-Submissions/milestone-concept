@@ -6,7 +6,7 @@
 
 .headerlogo{
     margin: auto;
-    width: 80%;
+    width: 100%;
     text-align: center;
     background-color: #ff0000;
     border-radius: 10px;
@@ -24,6 +24,7 @@
     margin: auto;
     width: 100%;
     text-align: center;
+    background-color: #0000FF;
 }
 
 .bandpictures{
@@ -36,24 +37,30 @@
 
 /*--------------------navigaton--------------------*/
 
-.navbar{
-    padding-top: 5px;
-    text-align: center;
-    background-color: #FFEFD5;
-    height: 75px;
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color:#0000ff;
 }
 
-li{
-   display: inline;
-   font-family:"Roboto", sans-serif;
-   font-weight: 700;
-   font-size: 30px;
-   padding: 10px;
+.flex-container > div {
+  font-family:"Robtoto", sans-serif;
+  font-size: 65px;
+  padding: 10px;
 }
 
-a {
+.menuitem a{
+    color: #fafafa;
     text-decoration: none;
-    
+}
+
+.menuitem a:hover{
+    color: #ff0000;
+}
+
+.menuitem a:active{
+    color: #F5F5DC;
 }
 
 
@@ -77,6 +84,10 @@ a {
     font-family:"Roboto", sans-serif;
     font-weight: 200;
     font-size: 50px;
+}
+
+.mainparagraph{
+    text-align:center;
 }
 
 .toursection{
@@ -114,6 +125,8 @@ a {
 
 
 /*--------------------general styling--------------------*/
+
+@media screen and (max-width: 750px){#bandmembers{display:none;}}
 
 
 
