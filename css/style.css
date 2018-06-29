@@ -8,16 +8,15 @@
     margin: auto;
     width: 100%;
     text-align: center;
-    background-color: #ff0000;
+    background-image: url("/media/images/monkees.jpg");
     border-radius: 10px;
 }
 
 .logo{
-    width:400px;
+    max-width:100%;
+    height: auto;
     border-radius: 50%;
-    border: 1px solid #ddd;
     padding: 5px;
-    background-color: #fafafa;
 }
 
 .band-members{
@@ -28,8 +27,7 @@
 }
 
 .bandpictures{
-    width: 300px;
-    height: 239px;
+    max-width: 100%;
     border-radius: 50%;
     border: 1px solid #ddd;
     padding: 5px;
@@ -37,20 +35,20 @@
 
 /*--------------------navigaton--------------------*/
 
-.flex-container {
+.flex-containerhome{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   background-color:#0000ff;
 }
 
-.flex-container > div {
-  font-family:"Robtoto", sans-serif;
-  font-size: 65px;
-  padding: 10px;
+.flex-containerhome div {
+    padding: 10px;
 }
 
 .menuitem a{
+    font-family:"Robtoto", sans-serif;
+    font-size: 50px;
     color: #fafafa;
     text-decoration: none;
 }
@@ -68,7 +66,9 @@
 
 
 
-/*--------------------section--------------------*/
+/*--------------------Content--------------------*/
+
+/*--------------------Content home--------------------*/
 
 .homeheader{
     text-align: center;
@@ -90,6 +90,8 @@
     text-align:center;
 }
 
+/*--------------------Content Tourdates--------------------*/
+
 .toursection{
     text-align: center;
 }
@@ -98,7 +100,39 @@
     font-family:"Galada", cursive;
     font-weight: 300;
     font-size: 75px;
+    padding-top: 0px;
 }
+
+.column h2{
+    font-family:"Galada", cursive;
+    font-size: 40px;
+}
+
+.column li{
+    font-family:"Roboto", sans-serif;
+    font-size: 35px;
+}
+
+.column ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+/*--------------------Content Discography--------------------*/
 
 .musicsection{
     text-align: center;
@@ -109,6 +143,8 @@
     font-weight: 300;
     font-size: 75px;
 }
+
+/*--------------------Content Booking--------------------*/
 
 .booksection{
     text-align: center;
@@ -127,6 +163,50 @@
 /*--------------------general styling--------------------*/
 
 @media screen and (max-width: 750px){#bandmembers{display:none;}}
+@media screen and (max-width: 395px){#menuicons{display:none;}}
 
+.column {
+    float: left;
+    width: 25%;
+}
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+l.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+h1{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {.column {width: 100%;}}
+@media screen and (min-width: 801px) {.column {width: 50%;}}
 
