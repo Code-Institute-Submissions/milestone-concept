@@ -2,8 +2,6 @@
 
 /*--------------------header--------------------*/
 
-
-
 .headerlogo{
     margin: auto;
     width: 100%;
@@ -60,11 +58,6 @@
 .menuitem a:active{
     color: #F5F5DC;
 }
-
-
-/*--------------------body--------------------*/
-
-
 
 /*--------------------Content--------------------*/
 
@@ -269,9 +262,6 @@ input[type=submit]{
 }
 
 
-
-
-
 /*--------------------footer--------------------*/
 
 .footer{
@@ -303,7 +293,7 @@ input[type=submit]{
 l.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: #b2beb5;
 }
 
 ul.breadcrumb li {
