@@ -68,15 +68,20 @@
 }
 
 .welcome{
-    font-family:"Galada", cursive;
+    font-family: "Galada", cursive;
     font-weight: 300;
     font-size: 75px;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .maincontent{
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 37px;
+    width: 75%;
+    margin-left: 50px;
+    text-align: left;
 }
 
 .mainparagraph{
@@ -291,13 +296,15 @@ input[type=submit]{
 
 @media screen and (max-width: 750px){#bandmembers{display:none;}}
 @media screen and (max-width: 395px){#menuicons{display:none;}}
+@media screen and (max-width: 600px) {.welcome{font-size: 30px}}
+@media screen and (max-width: 600px) {.maincontent{font-size: 20px}}
 
 
-
-l.breadcrumb {
+.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color: #b2beb5;
+    margin-left: 50px;
 }
 
 ul.breadcrumb li {
