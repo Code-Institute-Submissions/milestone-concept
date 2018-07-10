@@ -25,11 +25,13 @@
 }
 
 .bandpictures{
-    max-width: 100%;
+    max-width: 13%;
     border-radius: 50%;
     border: 1px solid #ddd;
     padding: 5px;
 }
+
+
 
 /*--------------------navigaton--------------------*/
 
@@ -46,7 +48,7 @@
 
 .menuitem a{
     font-family:"Robtoto", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: #fafafa;
     text-decoration: none;
 }
@@ -59,21 +61,22 @@
     color: #F5F5DC;
 }
 
+.fa{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 /*--------------------Content--------------------*/
 
 /*--------------------Content home--------------------*/
 
 .homeheader{
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.welcome{
-    font-family: "Galada", cursive;
-    font-weight: 300;
-    font-size: 75px;
-    text-align: left;
-    margin-left: 50px;
-}
+
 
 .maincontent{
     font-family: "Roboto", sans-serif;
@@ -81,6 +84,9 @@
     font-size: 37px;
     width: 75%;
     margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: left;
 }
 
@@ -92,13 +98,8 @@
 
 .toursection{
     text-align: center;
-}
-
-.tourheading{
-    font-family:"Galada", cursive;
-    font-weight: 300;
-    font-size: 75px;
-    padding-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .column-tour {
@@ -115,6 +116,7 @@
 .column-tour h2{
     font-family:"Galada", cursive;
     font-size: 40px;
+    margin-left: 100px;
 }
 
 .column-tour li{
@@ -125,6 +127,7 @@
 .column-tour ul{
     list-style-type: none;
     padding-bottom: 10px;
+    margin-left: 60px;
 }
 
 .button {
@@ -145,18 +148,20 @@
 
 .musicsection{
     text-align: center;
-}
-
-.musicheading{
-    font-family:"Galada", cursive;
-    font-weight: 300;
-    font-size: 75px;
+    margin-left: 50px;
+    margin-right: 50px
 }
 
 .musicparagraph{
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 37px;
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
 }
 
 .column-disco{
@@ -194,28 +199,36 @@
 
 .booksection{
     text-align: center;
-}
-
-.bookheading{
-    font-family:"Galada", cursive;
-    font-weight: 300;
-    font-size: 75px;
+    margin-left: 50px;
+    margin-right: 50px
 }
 
 .bookparagraph{
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 37px;
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.form{
+    width: 75%;
+    margin-left: 100px;
+    margin-bottom: 75px;
 }
 
 .firstnametext{
     font-family:"Roboto", sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #firstname{
-    width:100%;
+    width:28%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:10px;
@@ -224,11 +237,11 @@
 .lastnametext{
     font-family:"Roboto", sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #lastname{
-    width:100%;
+    width:28%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:10px;
@@ -237,11 +250,11 @@
 .subjecttext{
     font-family:"Roboto", sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #subject{
-    width:100%;
+    width:28%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:10px;
@@ -250,11 +263,11 @@
 .yourmessagetext{
     font-family:"Roboto", sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #yourmessage{
-    width:100%;
+    width:50%;
     height: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -266,8 +279,9 @@ input[type=submit]{
     font-family:"Galada", cursive;
     font-size: 35px;
     background-color: #4CAF50;
-    width: 100%;
+    width: 25%;
     height: 50px;
+    margin-top: 25px;
 }
 
 
@@ -279,7 +293,7 @@ input[type=submit]{
     padding-top: 15px;
     padding-bottom: 25px;
     font-family:"Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     background-color: #0000FF;
     color: #fafafa;
@@ -287,7 +301,7 @@ input[type=submit]{
 
 .footer a{
     color: #fafafa;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 
@@ -296,15 +310,18 @@ input[type=submit]{
 
 @media screen and (max-width: 750px){#bandmembers{display:none;}}
 @media screen and (max-width: 395px){#menuicons{display:none;}}
-@media screen and (max-width: 600px) {.welcome{font-size: 30px}}
+@media screen and (max-width: 600px) {.heading{font-size: 30px}}
 @media screen and (max-width: 600px) {.maincontent{font-size: 20px}}
-
+@media screen and (max-width: 600px) {.musicparagraph{font-size: 20px}}
+@media screen and (max-width: 600px) {.bookparagraph{font-size: 20px}}
 
 .breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #b2beb5;
+    background-color: #fafafa;
     margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
 }
 
 ul.breadcrumb li {
@@ -331,6 +348,15 @@ ul.breadcrumb li a:hover {
 
 h1{
     margin: 0;
+}
+
+.heading{
+    font-family:"Galada", cursive;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 @media screen and (max-width: 800px) {.column-tour {width: 100%;}}
