@@ -178,6 +178,7 @@
 .column-disco h2{
     font-family:"Galada", cursive;
     font-size: 40px;
+    margin-left: 100px;
 }
 
 .column-disco li{
@@ -188,6 +189,11 @@
 .column-disco ul{
     list-style-type: none;
     padding-bottom: 10px;
+    margin-left: 60px;
+}
+
+.column-disco ol{
+    margin-left: 90px;
 }
 
 .albumpictures{
@@ -315,40 +321,8 @@ input[type=submit]{
 @media screen and (max-width: 600px) {.musicparagraph{font-size: 20px}}
 @media screen and (max-width: 600px) {.bookparagraph{font-size: 20px}}
 
-.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: #fafafa;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 50px;
-}
 
-ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-    font-family:"Roboto", sans-serif;
-}
 
-ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-}
-
-ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-}
-
-h1{
-    margin: 0;
-}
 
 .heading{
     font-family:"Galada", cursive;
